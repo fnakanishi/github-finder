@@ -25,9 +25,9 @@ const Search = () => {
 
   return (
     <div>
-      <form onSubmit={ onSubmit } className='form'>
+      <form onSubmit={ onSubmit } className='form-text'>
         <input
-          tpye='text'
+          type='text'
           name='text'
           placeholder='Search Users...'
           value={ text }
